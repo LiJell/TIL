@@ -33,7 +33,7 @@ http://mirror.anigil.com/CentOS/7.9.2009/isos/x86_64/
 
 - 해당 링크에서 CentOS를 다운한다
 
-  CentOS-7-x86_64-DVD-2009.iso을 
+  CentOS-7-x86_64-DVD-2009.iso
 
 ![image-20211223180806445](Linux_download.assets/image-20211223180806445.png)
 
