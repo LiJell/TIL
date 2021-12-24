@@ -244,3 +244,7 @@ http://mirror.anigil.com/CentOS/7.9.2009/isos/x86_64/
 - 리눅스 창에서 상단에 위치한 장치 클릭 >> 클립보드 공유 >> 양방향 클릭
 - 메모장 열어서 whoami 치고 ctrl+shift+c, 이후 리눅스에서 ctrl+shift+v를 해보자
 - 오예!!!
+- https://lime-jelly.tistory.com/12
+
+#### 이제 PuTTY를 연결해보려면 해당 링크를 클릭해보자.
+https://github.com/LiJell/TIL/blob/master/Linux_PuTTY.md
