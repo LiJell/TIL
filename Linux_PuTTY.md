@@ -43,3 +43,7 @@
 - 이제 PuTTY를 통해 리눅스를 할 수 있다.
 
 ![image-20211224225054656](Linux_PuTTY.assets/image-20211224225054656.png)
+
+#### 가상환경에 리눅스를 설치하기 원하면 아래의 링크를 참고하자
+- https://lime-jelly.tistory.com/12
+- https://github.com/LiJell/TIL/blob/master/Linux_download.md
