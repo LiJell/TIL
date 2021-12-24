@@ -214,10 +214,14 @@ http://mirror.anigil.com/CentOS/7.9.2009/isos/x86_64/
 
 5. VirtualBox Guest Additions installation이 뜬다. 기다리면 **Yes**할것인지 물어볼 때 yes를 입력하고 기다리면된다. 
 
+![image-20211224222236141](Linux_download.assets/image-20211224222236141.png)
+
 - 시간이 조금 걸리는데 완료되면, **버전 번호가** 나오게된다
 - 이후, **reboot**을 하면 되지만, 대기하고 있으면 reboot을 해야 적용이된다면서 창을 닫으라고 한다. 확실히 하고자 면 이때까지 기다리자. 
 
 6. reboot
+
+![image-20211224222434739](Linux_download.assets/image-20211224222434739.png)
 
 - 확실한 reboot을 위해, 바탕화면에서 오른쪽 클릭을 하여 Terminal을 열어준 후 **reboot**을 입력한다.
 
@@ -225,7 +229,8 @@ http://mirror.anigil.com/CentOS/7.9.2009/isos/x86_64/
 
 #### 4) 화면크기 조정
 
-1. 거의 다 왔다!! 보기 >> 가상화면 1>> 원하는 사이즈를 선택!
+1. 거의 다 왔다!! 다시 root 계정으로 로그인 하자! 
+1. 보기 >> 가상화면 1>> 원하는 사이즈를 선택!
 
 
 
