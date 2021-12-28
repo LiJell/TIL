@@ -15,19 +15,19 @@
 - 지역은 서울 검색
 - csv 다운로드
 
-![image-20211228211223785](데이터시각화 matplolib.assets/image-20211228211223785.png)
+![image-20211228211223785](Data_visualization_matplolib.assets/image-20211228211223785.png)
 
 ## 2) 다운로드 한 파일 수정하기
 
 #### 1. 다운로드 한 파일을 엑셀로 연 후 아래와 같이 수정
 
-![image-20211228211350926](데이터시각화 matplolib.assets/image-20211228211350926.png)
+![image-20211228211350926](Data_visualization_matplolib.assets/image-20211228211350926.png)
 
 #### 2. 다른이름으로 저장
 
 - 파일을 원하는 경로에 설정 후 이름을 seoul로 변경하고, 파일 형식은 CSV(쉼표로 분리) 선택
 - 본인의 경로는 파이선의 root 폴더에 저장했다.
-![image-20211228211605443](데이터시각화 matplolib.assets/image-20211228211605443.png)
+![image-20211228211605443](Data_visualization_matplolib.assets/image-20211228211605443.png)
 
 
 
@@ -49,7 +49,7 @@
 
 - 오른쪽 New를 선택하고 Python을 선택하면 된다.
 
-![image-20211228212625211](데이터시각화 matplolib.assets/image-20211228212625211.png)
+![image-20211228212625211](Data_visualization_matplolib.assets/image-20211228212625211.png)
 
 
 
@@ -84,4 +84,4 @@ plt.show()                                 # 그래프 나타내기
 - 결과를 출력하면 아래와 같은 그래프를 얻을 수 있다!
 - 오예!
 
-![image-20211228213304814](데이터시각화 matplolib.assets/image-20211228213304814.png)
+![image-20211228213304814](Data_visualization_matplolib.assets/image-20211228213304814.png)
