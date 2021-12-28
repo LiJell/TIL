@@ -6,17 +6,17 @@ https://git-scm.com/
 
 
 
-![image-20211221210332487](Git 설치.assets/image-20211221210332487.png)
+![image-20211221210332487](Git_install.assets/image-20211221210332487.png)
 
 ### 2. 다운로드 진행
 
 - 아래 세 이미지 외 다른 과정은 디폴트 설정으로 진행
 
-![image-20211221210507167](Git 설치.assets/image-20211221210507167.png)
+![image-20211221210507167](Git_install.assets/image-20211221210507167.png)
 
-![image-20211221210527454](Git 설치.assets/image-20211221210527454.png)
+![image-20211221210527454](Gi_install.assets/image-20211221210527454.png)
 
-![image-20211221210545129](Git 설치.assets/image-20211221210545129.png)
+![image-20211221210545129](Git_install.assets/image-20211221210545129.png)
 
 ### 3 다운로드 이후 확인 방법
 
@@ -31,7 +31,7 @@ https://git-scm.com/
 
   
 
-![image-20211221160843232](Git 설치.assets/image-20211221160843232.png)
+![image-20211221160843232](Git_install.assets/image-20211221160843232.png)
 
 
 
