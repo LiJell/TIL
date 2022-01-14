@@ -19,19 +19,11 @@
 ## Learned List
 
 - CLI
-
 - Vscode
-
 - Markdown
-
 - Git
-
 - Github
-
 - Jupyter Notebook
-
 - Linux
-
 - Python
-
-  
+- WebCrawling
