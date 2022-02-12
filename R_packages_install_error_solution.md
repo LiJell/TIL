@@ -1,4 +1,4 @@
-# R에서 패키지 설치오류 해결 방법
+# R에서 KoNLP 설치오류 해결 방법
 
 - 첫번째로 KoNLP 경로 설치하기
 - R 버전이 계속 업데이이트 되면서 구 패키지들이 작동 안되는 경우에 해당됩니다
@@ -45,7 +45,10 @@ install.packages("https://cran.r-project.org/src/contrib/Archive/KoNLP/KoNLP_0.8
 - Recommand to install library manually in/data/gannet/document/R/test/00LOCK-KoNLP/00new/KoNLP/java
 - 여기서 KoNLP 까지의 경로를 따라 들어가보세요. java폴더안에 여러가지 파일을 확인할 수 있습니다
   - 경로가 다르더라도 경로 따라 들어가주시면 됩니다
-- 첨부된 파일을 압축을 풀어서 덮어씌워주시면 됩니다
+- 아래 링크로 들어가서 같은 부분에 첨부파일이 있습니다. 다운로드하셔서 덮어 씌워주시면 됩니다
+- https://lime-jelly.tistory.com/entry/R%EC%97%90%EC%84%9C-%ED%8C%A8%ED%82%A4%EC%A7%80-%EC%84%A4%EC%B9%98%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95
+
+
 
 ## Rtools 설치
 
