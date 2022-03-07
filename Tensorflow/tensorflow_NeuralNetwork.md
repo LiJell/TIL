@@ -259,7 +259,7 @@ plt.show()
 
 ```
 
-![image-20220304170650763](image.assets/image-20220304170650763.png)
+![image-20220304170650763](../image.assets/image-20220304170650763.png)
 
 ```python
 plt.clf()
@@ -276,7 +276,7 @@ plt.lengend()
 plt.show()
 ```
 
-![image-20220304170943408](image.assets/image-20220304170943408.png)
+![image-20220304170943408](../image.assets/image-20220304170943408.png)
 
 - 훈련손실이 에포크마다 감소하고 훈련정확도는 에포크마다 증가 
 - 경사 하강법 최적화를 사용했을 때 반복마다 최소화되는 것이 손실이므로 기대와 동일 
@@ -380,7 +380,7 @@ model.add(layers.Dense(64, activation = 'relu'))
 model.add(layers.Dense(46, activation = 'softmax'))
 ```
 
-- 마지막 Dense층의 크기가 46 → 각 입력 샘플에 대해 46차원의 벡터를 출 력. 이 벡터의 각 원소는 각기 다른 출력 클래스가 인코딩 된 것
+- 마지막 Dense층의 크기가 46 → 각 입력 샘플에 대해 46차원의 벡터를 출력. 이 벡터의 각 원소는 각기 다른 출력 클래스가 인코딩 된 것
 - 마지막 층에 softmax 활성화 함수 사용 → 각 입력 샘플마다 46개의 출력 클래스에 대한 확률 분포를 출력. 46차원 출력벡터를 만들며 output[i]는 어 떤 샘플이 클래스 i에 속할 확률. 46개 값을 모두 더하면 1이 됨
 - 이런 문제에 사용할 최선의 손실함수는 categorical_crossentropy
 
@@ -425,7 +425,7 @@ plt.show()
 
 ```
 
-![image-20220304173305854](image.assets/image-20220304173305854.png)
+![image-20220304173305854](../image.assets/image-20220304173305854.png)
 
 ```python
 plt.clf()
@@ -442,9 +442,21 @@ plt.lengend()
 plt.show()
 ```
 
-![image-20220304173335670](image.assets/image-20220304173335670.png)
+![image-20220304173335670](../image.assets/image-20220304173335670.png)
 
 -  9번째 에포크에서 과대적합 시작 → 9번의 에포크로 새로운 모델을 훈련
+
+```python
+model = models.Sequential()
+model.add(layers.Dense(64, activation ='relu', input_shape=(10000,)))
+model.add(layers.Dense(64, activation ='relu'))
+model.add(layers.Dense(46, activation ='softmax'))
+
+model.compile(optimizer='rmsprop', loss='categorical_crossentropy', metrics=['accuracy'])
+model.fit(partial_x_train, partial_ytrain, epochs=9, batch_size=512)
+results = model.evaluate(x_test, one_hot_test_labels)
+print(results)
+```
 - 새로운 데이터에 대해 예측
 
 ```python
@@ -456,6 +468,9 @@ np.argmax(predictions[0])
 
 - 충분히 큰 중간층을 두어야 하는 이유 
   - 마지막 출력이 46차원 → 중간층의 히든 유닛이 46보다 많이 적어서는 안됨
+  - 병목현상
+  - 데이터 소실
+  - 성능 안좋아짐
 
 ```python
 model = models.Sequential()
