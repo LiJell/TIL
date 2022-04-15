@@ -16,15 +16,18 @@
 
 
 
-## Learned List
+## Learning List
 
-- CLI
 - Markdown
 - Git
 - Github
-- Linux
+- Ubuntu
 - Python
 - WebCrawling
-
+- ML/DL
 - PowerBI
 - Agile
+- Oracle Cloud
+- HTML/CSS/JavaScript
+- React
+- FastAPi
