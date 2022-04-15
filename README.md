@@ -21,13 +21,13 @@
 - Markdown
 - Git
 - Github
-- Ubuntu
 - Python
 - WebCrawling
 - ML/DL
 - PowerBI
 - Agile
 - Oracle Cloud
+- Ubuntu
 - HTML/CSS/JavaScript
 - React
 - FastAPi
