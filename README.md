@@ -3,7 +3,7 @@
 - Today I Learned
 - 당일 공부한 것을 기록하는 곳입니다.
 
-## 나만의 규칙
+## My rules
 
 - 최대한 매일 commit을 목표로 하지만, 잔디 채우기에 집착하지 않는다.
   - 휴식도 운동에 포함되듯, 배움도 마찬가지다.
@@ -16,18 +16,15 @@
 
 
 
-## Learning List
+## What I have been learning
 
 - Markdown
 - Git
-- Github
 - Python
 - WebCrawling
 - ML/DL
 - PowerBI
 - Agile
-- Oracle Cloud
 - Ubuntu
 - HTML/CSS/JavaScript
-- React
-- FastAPi
+- FastAPi, Flask
