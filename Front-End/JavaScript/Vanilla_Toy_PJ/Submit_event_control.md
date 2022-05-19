@@ -27,7 +27,9 @@
 
 ```
 
+---
 
+## Submit Control
 
 ```javascript
 const loginForm = document.querySelector("#login-form");
