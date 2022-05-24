@@ -42,3 +42,13 @@
     - Handle requests from the front-end for information
     - Create, Read, Update and Delete in the system (**CRUD**)
     - Send info back to the front-end in JSON format (**J**ava**S**cript **O**bject **N**otation)
+
+---
+
+
+
+## TypeScript
+
+- TypeScript has some features like static variable typing and interfaces that are present in well-respected legacy languages like Java and C#
+- TypeScript is a superset of JavaScript which means *transpiled* into JavaScript
+- TypeScript is Translated into JavaScript
