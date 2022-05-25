@@ -1,4 +1,4 @@
-# Angular
+# The Stack
 
 - Front-end and Back-end of a web application
 
