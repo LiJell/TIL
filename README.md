@@ -27,4 +27,5 @@
 - Agile
 - Ubuntu
 - HTML/CSS/JavaScript
-- FastAPi, Flask
+- Angular
+- FastAPi, Flask, GraphQL
