@@ -28,7 +28,7 @@
 
 
 
-#### 2. Under-fectching
+#### 2. Under-fetching
 
 - 필요한 데이터보다 적은 데이터를 fetch하는 것을 말함
 - GraphQL API는 앱에 필요한 모든 데이터를 **단일 request**로 가져옵니다. 
